@@ -1,0 +1,11 @@
+{
+  "name": "sobdo",
+  "version": "1.0.0",
+  "description": "Do you read Substack daily?",
+  "main": "content.js",
+  "scripts": {
+
+  },
+  "author": "Julias0",
+  "license": "ISC"
+}

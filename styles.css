@@ -1,0 +1,7 @@
+span[aria-label] {
+  border-bottom: 1px dashed lightgray;
+}
+
+[class*="hint--"]::after {
+  font-size: 24px !important;
+}

@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Word Swapper for Substack",
+  "version": "1.0",
+  "description": "Swap specified words on Substack pages.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.substack.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css", "hint.min.css"]
+    }
+  ],
+  "icons": {
+    "48": "icon.png"
+  }
+}
